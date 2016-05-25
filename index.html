@@ -56,66 +56,90 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			</div>
 			<p>Have fun with CSS and SVG animations!</p>
 
-				<!-- Dirty fix: Make this work if time
-				<p><a href="files/cssanimations.pdf">The basics behind CSS animations</a></p>
-				<p><a href="files/CodePubSVG.pdf">The basics behind SVG animations</a></p>
-			-->
+			<!-- Dirty fix: Make this work if time
+			<p><a href="files/cssanimations.pdf">The basics behind CSS animations</a></p>
+			<p><a href="files/CodePubSVG.pdf">The basics behind SVG animations</a></p>
+		-->
 
-			<p><a href="https://github.com/codePubOslo/codepuboslo.github.io/blob/master/files/cssanimations.pdf">The basics behind CSS animations</a></p>
-			<p><a href="https://github.com/codePubOslo/codepuboslo.github.io/blob/master/files/CodePubSVG.pdf">The basics behind SVG animations</a></p>
+		<p><a href="https://github.com/codePubOslo/codepuboslo.github.io/blob/master/files/cssanimations.pdf">The basics behind CSS animations</a></p>
+		<p><a href="https://github.com/codePubOslo/codepuboslo.github.io/blob/master/files/CodePubSVG.pdf">The basics behind SVG animations</a></p>
 
-			<p><a href="#beginner" class="button scrolly">Get started</a></p>
+		<p><a href="#beginner" class="button scrolly">Get started</a></p>
 
+	</div>
+</section>
+
+<!-- Beginner -->
+<section id="css" class="wrapper style2 spotlights fade-up">
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>Four simple CSS animations</h2>
+				<p>Get started with CSS animations!</p>
+				<h3>Steps:</h3>
+				<ol>
+					<li>Learn about duration and delay</li>
+					<li>Learn how to combine animations</li>
+				</ol>
+				<div>
+					<div class="simple-shape one"></div>
+					<div class="simple-shape two"></div>
+					<div class="simple-shape three"></div>
+					<div class="simple-shape four"></div>
+				</div>
+				<p><a href="http://codepen.io/ringeru/pen/wGMjRz?editors=1100">Exercise</a></p>
+			</div>
 		</div>
 	</section>
+</section>
 
-	<!-- Beginner -->
-	<section id="css" class="wrapper style2 spotlights fade-up">
-		<section>
-			<div class="content">
-				<div class="inner">
-					<h2>Four simple CSS animations</h2>
-					<p>Get started with CSS animations!</p>
-					<h3>Steps:</h3>
-					<ol>
-						<li>Learn about duration and delay</li>
-						<li>Learn how to combine animations</li>
-					</ol>
-					<div>
-						<div class="simple-shape one"></div>
-						<div class="simple-shape two"></div>
-						<div class="simple-shape three"></div>
-						<div class="simple-shape four"></div>
-					</div>
-					<p><a href="http://codepen.io/ringeru/pen/wGMjRz?editors=1100">Exercise</a></p>
-				</div>
-			</div>
-		</section>
-	</section>
+<section id="svg" class="wrapper style3 spotlights fade-up">
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>Four simple SVG animations</h2>
+				<p>Get started with SVG animations!</p>
+				<h3>Steps:</h3>
+				<ol>
+					<li>Learn about setting x and y radius</li>
+					<li>Learn how to setting variables for rotation</li>
+					<li>Learn how to setting variables for resizing</li>
+				</ol>
 
-	<section id="svg" class="wrapper style3 spotlights fade-up">
-		<section>
-			<div class="content">
-				<div class="inner">
-					<h2>Four simple SVG animations</h2>
-					<p>Get started with SVG animations!</p>
-					<h3>Steps:</h3>
-					<ol>
-						<li>Learn about ...</li>
-						<li>Learn how to ...</li>
-					</ol>
-					<div>
-						<!-- TODO: Add SVG to animate these -->
-						<div class="simple-shape one"></div>
-						<div class="simple-shape two"></div>
-						<div class="simple-shape three"></div>
-						<div class="simple-shape four"></div>
-					</div>
-					<p><a href="http://codepen.io/anon/pen/JXepzg?editors=1011">Exercise</a></p>
+				<p><a href="http://codepen.io/anon/pen/pyQqmN?editors=1010">Exercise</a></p>
+
+				<svg width="200" height="200">
+					<rect id="rectangle1" x="50" y="50" rx="0" ry="0" width="100" height="100"
+					style="fill:red;stroke-width:5;opacity:0.5" />
+				</svg>
+				<svg width="200" height="200">
+					<rect id="rectangle2" x="50" y="50" width="100" height="100"
+					style="fill:blue;stroke-width:5;opacity:0.5" />
+				</svg>
+				<svg width="200" height="200">
+					<rect id="rectangle3" x="50" y="50" width="100" height="100"
+					style="fill:green;stroke-width:5;opacity:0.5" />
+				</svg>
+
+				<svg width="350" height="200">
+					<rect id="rectangle4" x="50" y="50" width="100" height="100"
+					style="fill:lightgreen;stroke-width:5;opacity:0.5" />
+				</svg>
+
+				<div id="fullcontext">
+					<div id="svgbasics"></div>
 				</div>
+
+				<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+				<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+				<script src='http://codepuboslo.github.io/svganim.js'></script>
+				<script src="assets/js/svg/simpleshapes.js"></script>
+
+				<p><a href="http://codepen.io/anon/pen/JXepzg?editors=1011">Solution</a></p>
 			</div>
-		</section>
+		</div>
 	</section>
+</section>
 
 <section id="css" class="wrapper style2 spotlights fade-up">
 	<section>
@@ -142,29 +166,85 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	</section>
 </section>
 
+
 <section id="svg" class="wrapper style3 spotlights fade-up">
-<section>
-	<div class="content">
-		<div class="inner">
-			<h2>Blinking stars with SVG</h2>
-			<p>Help the stars twinkle! </p>
-			<h3>Steps:</h3>
-			<ol>
-				<li>Start off with <b><a href="" target="_blank">this code</a></b></li>
-				<li>Make the stars blink using css <b>...</b> and <b>...</b>.</li>
-				<i class="blinking-star blinking-star-1 fa fa-star"></i>
-				<i class="blinking-star blinking-star-2 fa fa-star"></i>
-				<li>Now make the stars blink alternately using <b>...</b>. </li>
-				<i class="blinking-star blinking-star-3 fa fa-star"></i>
-				<i class="blinking-star blinking-star-4 fa fa-star"></i>
-				<li>Resize the stars as it blinks using <b>...</b>. </li>
-				<i class="blinking-star blinking-star-5 fa fa-star"></i>
-				<i class="blinking-star blinking-star-6 fa fa-star"></i>
-			</ol>
-			<p>Check out the solution <a href="" target="_blank">here</a>.</p>
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>Blinking stars with SVG</h2>
+				<p>Help the stars twinkle! </p>
+				<h3>Steps:</h3>
+				<ol>
+					<li>Start off with <b><a href="http://codepen.io/anon/pen/NNZyQJ" target="_blank">this code</a></b></li>
+					<li>Make the stars blink using <b>svgOpacity</b></li>
+					<p>Check out the solution <a href="http://codepen.io/anon/pen/reEdwj " target="_blank">here</a>.</p>
+
+					<svg height="105" width="105" >
+						<polygon Id="star1" points="50,5 20,99 95,39 5,39 80,99"
+						style="fill:white;stroke:white;" />
+					</svg>
+
+					<svg height="105" width="150" >
+						<polygon Id="star2" points="50,5 20,99 95,39 5,39 80,99"
+						style="fill:white;stroke:white;" />
+					</svg>
+
+					<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svganim.js'></script>
+					<script src="assets/js/svg/blinkingstarone.js"></script>
+
+					<li>Now make the stars blink alternately by calling them using <b>on complete</b>. </li>
+					<svg height="105" width="105" >
+						<polygon Id="star1" points="50,5 20,99 95,39 5,39 80,99"
+						style="fill:white;stroke:white;" />
+					</svg>
+
+					<svg height="105" width="150" >
+						<polygon Id="star2" points="50,5 20,99 95,39 5,39 80,99"
+						style="fill:white;stroke:white;" />
+					</svg>
+
+					<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svganim.js'></script>
+
+					<script src="assets/js/svg/blinkingstartwo.js"></script>
+
+					<li>Start off with <b><a href="http://codepen.io/anon/pen/MyMGyE" target="_blank">this code</a></b></li>
+					<p>Check out the solution <a href="http://codepen.io/anon/pen/EKBLVR" target="_blank">here</a> or <a href="http://codepen.io/anon/pen/Wwqyda" target="_blank">here</a>.</p>
+
+					<li>Resize the stars as it blinks using <b>svgHeight</b> and <b>svgWidth</b>. </li>
+					<!-- SVG code here -->
+
+					<svg height="105" width="105" >
+						<svg id="starBox" x="25px" y="25px" opacity= "0.0" viewBox="0 0 100 100">
+							<polygon Id="star1" points="50,5 20,99 95,39 5,39 80,99"
+							style="fill:white;stroke:white;" />
+						</svg>
+					</svg>
+
+					<svg height="105" width="150" >
+						<svg id="starBox2" viewBox="0 0 105 105">
+							<polygon Id="star2" points="50,5 20,99 95,39 5,39 80,99"
+							style="fill:white;stroke:white;" />
+						</svg>
+					</svg>
+
+					<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+					<script src='http://keith-wood.name/js/jquery.svganim.js'></script>
+					<script src="assets/js/svg/blinkingstarthree.js"></script>
+
+
+					<li>Start off with <b><a href="http://codepen.io/anon/pen/ONeEoE" target="_blank">this code</a></b></li>
+					<p>Check out the solution <a href="http://codepen.io/anon/pen/VaJxjO" target="_blank">here</a>.</p>
+
+				</ol>
+
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 </section>
 
 <section id="css" class="wrapper style2 spotlights fade-up">
@@ -184,22 +264,49 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </section>
 
 <section id="svg" class="wrapper style3 spotlights fade-up">
-<section>
-	<div class="content">
-		<div class="inner">
-			<h2>Make Puscheen dance with SVG!</h2>
-			<p>Make Puscheeen dance! Change the values in Puscheen's dance steps to make her move differently </p>
-			<a href="" target="_blank">Code</a>
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>Make Puscheen dance with SVG!</h2>
+				<p>Make Puscheeen dance! Change the values in Puscheen's dance steps to make her move differently </p>
+				<a href="http://codepen.io/anon/pen/jqdXxo?editors=1010" target="_blank">Excersise</a>
 
-			<div class="puscheenOuter">
-				<img src="http://orig07.deviantart.net/8deb/f/2013/144/9/6/pusheen_the_cat_png_18_by_13taylorswiftlover13-d66gdlq.png" class="puscheenDance"/>
-			</div>
-		</div>
+
+				<svg width="1000" height="500">
+					<defs>
+						<pattern id="image"
+						patternUnits="userSpaceOnUse"
+						height="500"
+						width="300">
+						<image
+						x="0"
+						y="0"
+						height="300"
+						width="300" xlink:href="http://orig07.deviantart.net/8deb/f/2013/144/9/6/pusheen_the_cat_png_18_by_13taylorswiftlover13-d66gdlq.png">
+					</image>
+				</pattern>
+			</defs>
+			<circle
+			id="pusheen"
+			cx="150"
+			cy="150"
+			r="150"
+			fill="url(#image)"/>
+		</svg>
+
+		<a href="http://codepen.io/anon/pen/oxmGmm?editors=1010" target="_blank">Solution</a>
+
+		<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+		<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+		<script src='http://codepuboslo.github.io/svganim.js'></script>
+		<script src="assets/js/svg/pusheen.js"></script>
+
 	</div>
+</div>
 </section>
 </section>
 
-<section id="css" class="wrapper style2 spotlights fade-up">
+<section id="css" class="wrapper style2">
 	<section>
 		<div class="content">
 			<div class="inner">
@@ -222,64 +329,79 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	</section>
 </section>
 
-<section id="svg" class="wrapper style3 spotlights fade-up">
-<section>
-	<div class="content">
-		<div class="inner">
-			<h2>SVG Spinner: Cube</h2>
-			<div class="sk-cube-grid">
-				<div class="sk-cube sk-cube1"></div>
-				<div class="sk-cube sk-cube2"></div>
-				<div class="sk-cube sk-cube3"></div>
-				<div class="sk-cube sk-cube4"></div>
-				<div class="sk-cube sk-cube5"></div>
-				<div class="sk-cube sk-cube6"></div>
-				<div class="sk-cube sk-cube7"></div>
-				<div class="sk-cube sk-cube8"></div>
-				<div class="sk-cube sk-cube9"></div>
-			</div>
-
-			<p><a href="">Exercise</a></p>
-			<p><a href="">Original code</a></p>
-		</div>
-	</div>
-</section>
-</section>
-
-<section id="css" class="wrapper style2 spotlights fade-up">
+<section id="svg" class="wrapper style3">
 	<section>
 		<div class="content">
 			<div class="inner">
-				<h2>CSS Spinner: Double Bounce</h2>
-				<div class="spinner">
-					<div class="double-bounce1"></div> <!--first circle-->
-					<div class="double-bounce2"></div> <!-- second circle-->
-				</div>
-				<p><a href="http://codepen.io/maeri08/pen/dMoWoO?editors=1100">Exercise</a></p>
-				<p><a href="http://codepen.io/maeri08/pen/graZzP?editors=1100">Original code</a></p>
+				<h2>SVG Spinner: Cube</h2>
+
+				<svg width="100%" height="200">
+					<rect id="rectangle11" x="15" y="15" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle12" x="30" y="15" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle13" x="45" y="15" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle21" x="15" y="30" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle22" x="30" y="30" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle23" x="45" y="30" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle31" x="15" y="45" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle32" x="30" y="45" width="15" height="15"
+					style="fill:white;" />
+					<rect id="rectangle33" x="45" y="45" width="15" height="15"
+					style="fill:white;" />
+				</svg>
+
+				<script src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+				<script src='http://keith-wood.name/js/jquery.svg.js'></script>
+				<script src='http://codepuboslo.github.io/svganim.js'></script>
+				<script src="assets/js/svg/spinnercube.js"></script>
+
+				<p><a href="http://codepen.io/anon/pen/vGPZpE">Exercise</a></p>
+				<p><a href="http://codepen.io/anon/pen/vGbjWW?editors=1111">Solution</a></p>
 			</div>
 		</div>
 	</section>
 </section>
 
-
-<section id="svg" class="wrapper style3 spotlights fade-up">
+<!-- <section id="css" class="wrapper style2 spotlights fade-up">
 <section>
-	<div class="content">
-		<div class="inner">
-			<h2>SVG Spinner: Double Bounce</h2>
-			<div class="spinner">
-				<div class="double-bounce1"></div> <!--first circle-->
-				<div class="double-bounce2"></div> <!-- second circle-->
-			</div>
-			<p><a href="">Exercise</a></p>
-			<p><a href="">Original code</a></p>
-		</div>
-	</div>
+<div class="content">
+<div class="inner">
+<h2>CSS Spinner: Double Bounce</h2>
+<div class="spinner">
+<div class="double-bounce1"></div> <!--first circle-->
+<!-- <div class="double-bounce2"></div> <!-- second circle-->
+<!-- </div>
+<p><a href="http://codepen.io/maeri08/pen/dMoWoO?editors=1100">Exercise</a></p>
+<p><a href="http://codepen.io/maeri08/pen/graZzP?editors=1100">Original code</a></p>
+</div>
+</div>
+</section>
+</section>  -->
+
+
+<!-- <section id="svg" class="wrapper style3 spotlights fade-up">
+<section>
+<div class="content">
+<div class="inner">
+<h2>SVG Spinner: Double Bounce</h2>
+<div class="spinner">
+<div class="double-bounce1"></div> <!--first circle-->
+<!-- <div class="double-bounce2"></div> <!-- second circle-->
+<!-- </div>
+<p><a href="">Exercise</a></p>
+<p><a href="">Original code</a></p>
+</div>
+</div>
 </section>
 </section>
 
-</section>
+</section>-->
 
 <!-- Intermediate
 <section id="intermediate" class="wrapper style3 spotlights fade-up">
@@ -386,6 +508,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </div>
 </section> -->
 
+<!-- end of wrapper-->
 </div>
 
 <!-- Footer -->
@@ -405,6 +528,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <script src="assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+<script src="http://keith-wood.name/js/jquery.svg.js"></script>
+<script src="svganim.js"></script>
+
+<!--SVG specific scripts -->
+<script src="assets/js/svg/simpleshapes.js"></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
 
 <!--- Scripts for solar system hover -->
 <script src="http://www.google.com/jsapi"></script>
