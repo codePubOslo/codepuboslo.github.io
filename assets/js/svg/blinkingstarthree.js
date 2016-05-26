@@ -1,6 +1,6 @@
-var animationSpeed = 500;
+var animationSpeed = 200;
 
-function blinkingStars() {
+function blinkingStars3() {
    $('#starBox2').animate({
         svgHeight: '50',
         svgWidth: '50',
@@ -40,11 +40,11 @@ function blinkingStars() {
         easing: 'linear',
         duration: animationSpeed,
         complete: function() {
-          blinkingStars();
+          blinkingStars3();
         }
       })
     }
   })
 }
 //calling the resize function
-blinkingStars();
+blinkingStars3();

@@ -1,12 +1,12 @@
 var animationSpeed = 500;
 
-function blinkingStars(one, two) {
-  $('#star2').animate({
+function blinkingStars2(one, two) {
+  $('#star4').animate({
     svgOpacity: two
   }, {easing: 'linear',
      duration: animationSpeed
      })
-  $('#star1').animate({
+  $('#star3').animate({
     svgOpacity: one
   }, {
     easing: 'linear',
@@ -15,10 +15,10 @@ function blinkingStars(one, two) {
       var tempTwo = one;
       one = two;
       two = tempTwo;
-      blinkingStars(one, two);
+      blinkingStars2(one, two);
     }
   });
 };
 
 
-blinkingStars(1.0, 0.0);
+blinkingStars2(1.0, 0.0);

@@ -1,6 +1,6 @@
 var animationSpeed = 500;
 
-function blinkingStars(one, two) {
+function blinkingStars1(one, two) {
   $('#star1, #star2').animate({
     svgOpacity: one
   }, {
@@ -10,10 +10,10 @@ function blinkingStars(one, two) {
       var tempTwo = one;
       one = two;
       two = tempTwo;
-      blinkingStars(one, two);
+      blinkingStars1(one, two);
     }
   });
 };
 
 
-blinkingStars(1.0, 0.0);
+blinkingStars1(1.0, 0.0);
