@@ -1,16 +1,16 @@
-var animationSpeed = 500;
+var animationSpeedS2 = 700;
 
 function blinkingStars2(one, two) {
   $('#star4').animate({
     svgOpacity: two
   }, {easing: 'linear',
-     duration: animationSpeed
+     duration: animationSpeedS2
      })
   $('#star3').animate({
     svgOpacity: one
   }, {
     easing: 'linear',
-    duration: animationSpeed,
+    duration: animationSpeedS2,
     complete: function() {
       var tempTwo = one;
       one = two;

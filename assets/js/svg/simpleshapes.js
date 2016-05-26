@@ -1,4 +1,4 @@
-//variable used in animations setting the speed of the animation
+(function(){//variable used in animations setting the speed of the animation
 var animationSpeed = 2000;
 
 //task 1 switching between circle and square
@@ -109,4 +109,4 @@ function slideRect() {
   });
 }
 //calling the slideRectangle function
-slideRect();
+slideRect();})();

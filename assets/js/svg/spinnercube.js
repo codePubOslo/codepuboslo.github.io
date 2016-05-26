@@ -1,4 +1,4 @@
-var animationSpeed = 700;
+var animationSpeedSC = 700;
 
 function spinningCube(cubename, borderX, borderY, borderX2, borderY2) {
   $('#'+cubename+'').animate({
@@ -6,14 +6,14 @@ function spinningCube(cubename, borderX, borderY, borderX2, borderY2) {
     svgHeight: '0px',
     svgX: ''+borderX+'px',
     svgY: ''+borderY+'px'
-  },{easing:'linear', duration:animationSpeed, complete: function(){
+  },{easing:'linear', duration:animationSpeedSC, complete: function(){
     $('#'+cubename+'').animate({
       svgWidth: '15px',
       svgHeight: '15px',
       svgX: ''+borderX2+'px',
       svgY: ''+borderY2+'px'
 
-    }, animationSpeed);
+    }, animationSpeedSC);
   }})
 };
 
@@ -41,3 +41,4 @@ function runAnimation(){
   },1700);
 }
 runAnimation();
+

@@ -1,4 +1,4 @@
-var animationSpeed = 200;
+var animationSpeedS3 = 700;
 
 function blinkingStars3() {
    $('#starBox2').animate({
@@ -8,7 +8,7 @@ function blinkingStars3() {
         svgY: '25px',
         svgOpacity:'0.0'
       },{easing:'linear',
-        duration:animationSpeed
+        duration:animationSpeedS3
         });
   $('#starBox').animate({
     svgHeight: '100',
@@ -18,7 +18,7 @@ function blinkingStars3() {
     svgY: '0px'
   }, {
     easing: 'linear',
-    duration: animationSpeed,
+    duration: animationSpeedS3,
     complete: function() {
       $('#starBox2').animate({
         svgHeight: '100',
@@ -27,7 +27,7 @@ function blinkingStars3() {
          svgX: '0px',
           svgY: '0px'
       },{easing:'linear',
-        duration:animationSpeed
+        duration:animationSpeedS3
         });
 
       $('#starBox').animate({
@@ -38,7 +38,7 @@ function blinkingStars3() {
           svgY: '25px'
       }, {
         easing: 'linear',
-        duration: animationSpeed,
+        duration: animationSpeedS3,
         complete: function() {
           blinkingStars3();
         }

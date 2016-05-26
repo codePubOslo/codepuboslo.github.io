@@ -1,4 +1,4 @@
-var animationSpeed = 700;
+(function(){var animationSpeed = 700;
 var x = 150;
 var dx = 150;
 var round = 0;
@@ -38,3 +38,4 @@ function setNewXValue(){
      x -= dx;
   }
 };
+})();

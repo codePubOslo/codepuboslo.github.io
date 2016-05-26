@@ -36,12 +36,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<div class="inner">
 			<nav>
 				<ul>
-					<!--TODO create menu when code is in place
+					<!--TODO create menu when code is in place-->
 					<li><a href="#intro">Welcome</a></li>
-					<li><a href="#beginner">Beginner</a></li>
-					<li><a href="#intermediate">Intermediate</a></li>
-					<li><a href="#experienced">Experienced</a></li>
-				-->
+					<li><a href="#beginner">Lets start coding</a></li>
+					<li><a href="#intermediate">Extra</a></li>
+					<li><a href="#experienced">A CSS challenge</a></li>
+				
 			</ul>
 		</nav>
 	</div>
@@ -76,7 +76,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 <!-- Beginner -->
 <section id="css" class="wrapper style2 spotlights fade-up">
-	<section>
+	<section id="beginner">
 		<div class="content">
 			<div class="inner">
 				<h2>Four simple CSS animations</h2>
@@ -166,7 +166,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	</section>
 </section>
 
-
 <section id="svg" class="wrapper style3 spotlights fade-up">
 	<section>
 		<div class="content">
@@ -189,7 +188,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 						style="fill:white;stroke:white;" />
 					</svg>
 
-					<li>Now make the stars blink alternately by calling them using <b>on complete</b>. </li>
+					<li>Now make the stars blink alternately by setting <b>svgOpacity</b> in a different order. </li>
 					<svg height="105" width="105" >
 						<polygon Id="star3" points="50,5 20,99 95,39 5,39 80,99"
 						style="fill:white;stroke:white;" />
@@ -203,7 +202,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					<li>Start off with <b><a href="http://codepen.io/anon/pen/MyMGyE" target="_blank">this code</a></b></li>
 					<p>Check out the solution <a href="http://codepen.io/anon/pen/EKBLVR" target="_blank">here</a> or <a href="http://codepen.io/anon/pen/Wwqyda" target="_blank">here</a>.</p>
 
-					<li>Resize the stars as it blinks using <b>svgHeight</b> and <b>svgWidth</b>. </li>
+					<li>Now a challenge - put what you just learned together and use the <b>viewBox, svgHeight, svgWidth, svgX</b> and <b>svgY</b> to scale the stars. </li>
 					<!-- SVG code here -->
 
 					<svg height="105" width="105" >
@@ -341,49 +340,48 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	</section>
 </section>
 
-<!-- <section id="css" class="wrapper style2 spotlights fade-up">
-<section>
-<div class="content">
-<div class="inner">
-<h2>CSS Spinner: Double Bounce</h2>
-<div class="spinner">
-<div class="double-bounce1"></div> <!--first circle-->
-<!-- <div class="double-bounce2"></div> <!-- second circle-->
-<!-- </div>
-<p><a href="http://codepen.io/maeri08/pen/dMoWoO?editors=1100">Exercise</a></p>
-<p><a href="http://codepen.io/maeri08/pen/graZzP?editors=1100">Original code</a></p>
-</div>
-</div>
-</section>
-</section>  -->
-
-
-<!-- <section id="svg" class="wrapper style3 spotlights fade-up">
-<section>
-<div class="content">
-<div class="inner">
-<h2>SVG Spinner: Double Bounce</h2>
-<div class="spinner">
-<div class="double-bounce1"></div> <!--first circle-->
-<!-- <div class="double-bounce2"></div> <!-- second circle-->
-<!-- </div>
-<p><a href="">Exercise</a></p>
-<p><a href="">Original code</a></p>
-</div>
-</div>
-</section>
+<section id="svg" class="wrapper style2 spotlights fade-up">
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>CSS Spinner: Double Bounce</h2>
+				<div class="spinner">
+					<div class="double-bounce1"></div> <!--first circle-->
+					<div class="double-bounce2"></div> <!-- second circle-->
+				</div>
+				<p><a href="http://codepen.io/maeri08/pen/dMoWoO?editors=1100">Exercise</a></p>
+				<p><a href="http://codepen.io/maeri08/pen/graZzP?editors=1100">Original code</a></p>
+			</div>
+		</div>
+	</section>
 </section>
 
-</section>-->
 
-<!-- Intermediate
+<section id="svg" class="wrapper style3 spotlights fade-up">
+	<section>
+		<div class="content">
+			<div class="inner">
+				<h2>SVG Spinner: Double Bounce</h2>
+				<svg height="100" width="100">
+					<circle id="circle1" opacity="0.5" cx="50" cy="50" r="0" fill="white" />
+					<circle id="circle2" opacity="0.5" cx="50" cy="50" r="50" fill="white" />
+				</svg>
+				<p><a href="http://codepen.io/anon/pen/KzjBmp">Exercise</a></p>
+				<p><a href="http://codepen.io/anon/pen/WwqKQB?">Original code</a></p>
+			</div>
+		</div>
+	</section>
+</section>
+
+<!--/section-->
+
+<!-- Intermediate-->
 <section id="intermediate" class="wrapper style3 spotlights fade-up">
--->
-<!-- Creatures -->
-<!-- <section>
+<!-- Creatures --> 
+<section>
 <div class="content">
 <div class="inner">
-<h2>Blink and Squeeze</h2>
+<h2>Extra: Blink and Squeeze</h2>
 <div class="creature">
 <div class="creature-one">
 <figure class="hyper grow">
@@ -397,7 +395,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </div>
 </div>
 </section>
-<section id="intermediatetwo">
+
+<!--section id="intermediatetwo">
 <div class="content">
 <div class="inner">
 <h2>Rotate and Translate</h2>
@@ -440,16 +439,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </section> -->
 
 <!-- Experienced -->
-<!-- <section id="experienced" class="solarsystem-section wrapper style1 fullscreen fade-up">
+<section id="experienced" class="solarsystem-section wrapper style1 fullscreen fade-up">
 <div class="inner">
-<h2>Experienced - Solar System</h2>
+<h2>Solar System</h2>
 <p><a href="files/solarsystem.zip">Downloading the files here</a>. </br>Build upon the code and create a solar system! </br>If you get stuck, use your developer tool and inspect the code on this page, or ask one of us!</p>
 <p>Animation properties currently only work on -webkit browsers (Chrome or Safari).</p>
 
 <div class="solarsystem-container">
 
-<!-- The planets -->
-<!-- <ul class="solarsystem">
+	<!-- The planets -->
+<ul class="solarsystem">
 <li class="sun"><a href="#sun"></a></li>
 <li class="mercury"><a href="#mercury"></a></li>
 <li class="venus"><a href="#venus"></a></li>
@@ -460,10 +459,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <li class="uranus"><a href="#uranus"></a></li>
 <li class="neptune"><a href="#neptune"></a></li>
 <li class="pluto"><a href="#pluto"></a></li>
-</ul> -->
+</ul>
 
 <!-- The planet list -->
-<!-- <ul id="descriptions">
+<ul id="descriptions">
 <li><h2 id="sun">Sun</h2></li>
 <li><h2 id="mercury">Mercury</h2></li>
 <li><h2 id="venus">Venus</h2></li>
@@ -479,7 +478,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 <a href="#intro" class="button scrolly">Return to top</a>
 </div>
-</section> -->
+</section>
 
 <!-- end of wrapper-->
 </div>
@@ -512,6 +511,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <script src="assets/js/svg/blinkingstartwo.js"></script>
 <script src="assets/js/svg/blinkingstarthree.js"></script>
 <script src="assets/js/svg/pusheen.js"></script>
+<script src="assets/js/svg/doublebounce.js"></script>
 <script src="assets/js/svg/spinnercube.js"></script>
 
 <!--- Scripts for solar system hover
